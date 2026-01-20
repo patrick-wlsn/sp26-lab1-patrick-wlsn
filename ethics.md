@@ -13,8 +13,12 @@ What are your housing priority scoring criteria? Why did you choose these weight
 
 Describe your thought process here before the group discussion.
 
+- Whatever your class year is, it is multiplied by 4
+- If you're graduating, you get 1 point, while if not, 4
+- For the first 25 credits you have, you gain one point, and any credits after, you receive 2 for each
+- If someone had a roommate last year and if you were in housing last year
 
-
+My critea rewards students for being academically strong and on seniority. However, it also prioritizes students who commit to the housing system, as if they relied on housing in the past then they should be responded with equity, as someone who hasn't taken advantage of housing should be in a better place since they have experience figuring off-campus housing out.
 
 
 ## (Answer after group discussion) Similarities and Differences

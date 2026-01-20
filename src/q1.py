@@ -26,4 +26,41 @@ def validate_password(password: str) -> bool:
     bool
         True if the password is valid, and false otherwise
     """
-    pass
+    #1.)
+    if len(password) < 8:
+        return False
+
+    #2.)
+    upper = 0
+    for u in password:
+        if u.isupper():
+            upper += 1
+    if upper == 0:
+        return False
+    
+    #3.)
+    lower = 0
+    for l in password:
+        if l.islower():
+            lower += 1
+    if lower == 0:
+        return False
+    
+    #4.)
+    numb = 0
+    for n in password:
+        if int(n):
+            numb += 1
+    if numb == 0:
+        return False
+    
+    #5.)
+    spechar = 0
+    spec = ["!", "@", "#", "$", "%", "^", "&", "*"]
+    for s in password:
+        if s in spec:
+            spechar += 1
+    if spechar == 0:
+        return False
+    
+    return True
