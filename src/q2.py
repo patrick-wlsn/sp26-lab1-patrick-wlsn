@@ -15,4 +15,15 @@ def set_password() -> None:
        (Keep repeating until password is valid)
     """
     # This function will require calling validate_password from q1
-    pass
+    arg = input("Enter a password: ")
+    while validate_password(arg) is False:
+        print("" \
+        "Your password must be:" \
+        "At least 8 characters long," \
+        "have one uppercase letter," \
+        "have one lowercase letter," \
+        "have one number," \
+        "and have one special character")
+        arg = input("Enter a password: ")
+        validate_password(arg)
+
